@@ -3,6 +3,19 @@
 header {
   border-bottom: 5px solid darkblue;
   }
+  .banner {
+  height: 350px;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.photo {
+  background-position: 50% right;
+}
+
+.icon {
+  background-position: 0 100px;
+}
 
 .title {
   font-size: 48px;
@@ -11,12 +24,15 @@ header {
   }
 body
   {
-  background-color: AliceBlue;
+    background-image: url(images/BACK2.jpg);
+    background-repeat: repeat;
+  background-color: DarkSlateGray;
       color: DarkslateBlue;
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 16px;
 
   }
+
 header,
 section,
 footer {
@@ -68,6 +84,14 @@ a:visited {
       box-sizing: border-box;
       /* border: 1px solid red; */
     }
+
+    .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+  div {
+    margin: 0 auto;
+  }
 
 h1, h2, h3, h5 {
   margin-bottom: 100px;
